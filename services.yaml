@@ -1,0 +1,12 @@
+
+# Set these param in your config/service.yaml file
+parameters:
+    maintenance: false  #turn it to true to enable maintenance, false if disable
+
+
+
+services:
+    #Register your Listener in your config/service.yaml file
+    App\Services\Listener\MaintenanceListener:
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }
