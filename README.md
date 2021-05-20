@@ -10,7 +10,7 @@
  <img width="460" height="300" src="https://symfony.com/images/logos/header-logo.svg">
  <br>
 
-  <img width="460" height="300" src="maintenance.png">
+  <img width="460" height="300" src="maintenance.PNG">
 </p>
 
 This short snippet aim to easily handle setting a Symfony 5.*+ website to maintenance mode.
